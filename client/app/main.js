@@ -8,9 +8,10 @@ require.config({
         kendo: '../vendor/kendo.web.min'
 	},
 	shim: {
+        'kendo': ['jquery'],
 		angular: {
 			exports: 'angular'
-		}
+		},
 	},
 	deps: ['app']
 });
