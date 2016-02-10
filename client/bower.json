@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pplavetzki/amd-angular-kendo",
+  "authors": [
+    "pplavetzki <paul@pareidoliasw.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "jquery": "^2.2.0"
+  }
+}
